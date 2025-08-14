@@ -1,0 +1,54 @@
+{
+  "name": "js-i18n-gettext",
+  "version": "1.0.0",
+  "description": "JavaScript library for internationalization using Gettext format (.po/.pot/.mo files)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest",
+    "lint": "npx eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "gettext",
+    "localization",
+    "translation",
+    "po",
+    "pot",
+    "mo",
+    "binary"
+  ],
+  "author": "AnmiTaliDev <anmitali198@gmail.com>",
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnmiTaliDev/js-i18n-gettext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnmiTaliDev/js-i18n-gettext/issues"
+  },
+  "homepage": "https://github.com/AnmiTaliDev/js-i18n-gettext#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.2.1",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "type": "commonjs"
+}
